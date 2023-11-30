@@ -1,24 +1,6 @@
 # README
+Run app by running `rails server`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Now, your Rails app is running, and you can make HTTP requests to the `/webhook/create` endpoint to create new records and notify third-party APIs.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please note that this is a basic example, Additionally, for production use, we should consider implementing proper security measures, such as securing your webhook endpoints and using secure channels (HTTPS) for communication with third-party APIs.
